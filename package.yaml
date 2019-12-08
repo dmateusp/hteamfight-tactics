@@ -1,0 +1,22 @@
+name:                hteamfight-tactics
+version:             1.0.0
+github:              "dmateusp/hteamfight-tactics"
+license:             BSD3
+author:              "Daniel Mateus Pires (dmateusp@gmail.com)"
+maintainer:          "Daniel Mateus Pires (dmateusp@gmail.com)"
+copyright:           "2019 Daniel Mateus Pires"
+
+extra-source-files:
+- README.md
+- ChangeLog.md
+
+synopsis:            Client library for the (Riot Games) Teamfight Tactics library
+category:            Game
+
+description:         See README on GitHub at <https://github.com/dmateusp/hteamfight-tactics#readme>
+
+dependencies:
+- base >= 4.7 && < 5
+
+library:
+  source-dirs: src
